@@ -1,0 +1,11 @@
+  provider: aws
+  service: calling rest
+  frameworkVersion: 3.12
+  runtime: python
+  region: ap-south-1
+provider:
+  name: aws
+functions:
+  api-demo:
+    handler: handler.hello
+
